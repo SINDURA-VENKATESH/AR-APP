@@ -40,7 +40,7 @@ function App() {
           new THREE.MeshBasicMaterial({ color: 0xff00ff }),
           new THREE.MeshBasicMaterial({ color: 0x00ffff })
         ];
-        const geometry = new THREE.BoxGeometry(0.09, 0.09, 0.09);
+        const geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
         const mesh = new THREE.Mesh(geometry, materials);
 
         mesh.position.setFromMatrixPosition(reticle.matrix);
