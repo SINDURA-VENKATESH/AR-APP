@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import * as THREE from "three";
 import { ARButton } from "three/examples/jsm/webxr/ARButton";
-import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
+//import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
 
 function App() {
   useEffect(() => {
